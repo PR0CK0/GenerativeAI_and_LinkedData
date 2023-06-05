@@ -3,11 +3,28 @@ A detailed record of the research performed during my summer 2023 internship wit
 
 1. Getting generative models to spit out valid triples and maybe DL axioms
 2. ML workflows, from end-to-end, in an operational military context of training, testing, deploying and replacing in the field
+3. GPT alternatives, including ones that can run locally and can be fine-tuned more explicitly
+4. Prompting techniques... we already know a lot about this stuff but there are interesting fragments in the literature to consider
 
 This repo reflects that research, organizing it as appropriate.
 
+# Table of Contents
+1. [Survey](#survey)
+2. [LLMs and LD Generation](#llms-and-ld-generation)
+3. [ML Workflows](#ml-workflows)
+   1. [ML Workflow Papers](#ml-workflow-papers)
+   2. [Ontologies](#ontologies)
+4. [GPT Alternatives](#gpt-alternatives)
+   1. [A List of Large Models](#a-list-of-large-models)
+   2. [Local GPTs](#local-gpts)
+   3. [Hosting Services](#hosting-services)
+   4. [Evaluating Models](#evaluating-models)
+5. [Prompting Techniques](#prompting-techniques)
+   1. [Prompting Technique Papers](#prompting-technique-papers)
+
 # Survey
-On the interplay between Linked Data constructs and LLMs, Tim has included me on a paper of his that surveys this exact topic. He extracted 5 key sub-topics of research:
+On the interplay between Linked Data constructs and LLMs, Tim (@A-J-S97) has included me on a paper of his that surveys this exact topic. He extracted 5 key sub-topics of research:
+
 * Knowledge Graph Generation
 * Knowledge Graph Completion
 * Knowledge Graph Enrichment
@@ -20,3 +37,39 @@ It is in the publication pipeline and stuck on [Teams](https://teams.microsoft.c
 * [OntoGPT GitHub](https://github.com/monarch-initiative/ontogpt)
 
 # ML Workflows
+By "ML Workflows", I mean all associated nomenclature, e.g.:
+
+* ML Operations (MLOps)
+* ML Engineering
+* Etc.
+
+The main thing of interest is the generation and maintenance of appropriate provenance for ML models over the lifecycle of operational ML. For example, in the context of, say, image classification for tanks, an ML provider may say they can give an uber model to detect anything, but this is not realistic. If it's foggy out, or rainy, or the targets paint pink unicorns all over their tanks - surprise: suddenly the model doesn't work! So ML models need to be traceable to their training data, tested quickly, deployed for actionable use and easily retirable once certain requirements aren't met, e.g., not being able to detect tanks with painted unicorns on them. So, the importance of properly serializing ML workflows cannot be understated, and this goes hand-in-hand with Linked Data, because graph data is ideal for representing provenance, e.g., consider the PROV project.
+
+## ML Workflow Papers
+* [Managing Machine Learning Workflow Components](papers\ml_workflows\1912.05665.pdf)
+* [ModelDB: A System for Machine Learning Model Management](papers\ml_workflows\2939502.2939516.pdf)
+
+## Ontologies
+* PROV
+* PROV-ML
+
+# GPT Alternatives
+
+## A List of Large Models
+* [Awesome Huge Models](https://github.com/zhengzangw/awesome-huge-models) - The best resource on all of them, including GPTs, LLaMa, PaLM, BLOOM, etc.); I contributed some to it and it is a one-stop shop
+
+## Local GPTs
+* [PrivateGPT](https://github.com/imartinez/privateGPT)
+* [GPT4All](https://github.com/nomic-ai/gpt4all)
+
+## Hosting Services
+* [ColossalAI](https://github.com/hpcaitech/ColossalAI)
+
+## Evaluating Models
+* [Holistic Evaluation of Language Models](papers\ml_workflows\2211.09110.pdf)
+  * [Stanford's CRFM HELM project site](https://crfm.stanford.edu/helm/v0.2.2/)
+
+# Prompting Techniques
+
+## Prompting Technique Papers
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers\ml_workflows\2201.11903.pdf)
