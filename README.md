@@ -51,7 +51,7 @@ The main thing of interest is the generation and maintenance of appropriate prov
 
 ## Ontologies
 * PROV
-* PROV-ML
+* [Workflow Provenance in the Lifecycle of Scientific Machine Learning](papers/ontologies/souza.pdf) - defines the PROV-ML ontology
 
 # GPT Alternatives
 
@@ -66,10 +66,11 @@ The main thing of interest is the generation and maintenance of appropriate prov
 * [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 
 ## Evaluating Models
-* [Holistic Evaluation of Language Models](papers\ml_workflows\2211.09110.pdf)
+* [Holistic Evaluation of Language Models](papers\lms
+\2211.09110.pdf)
   * [Stanford's CRFM HELM project site](https://crfm.stanford.edu/helm/v0.2.2/)
 
 # Prompting Techniques
 
 ## Prompting Technique Papers
-* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers\ml_workflows\2201.11903.pdf)
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers\prompting\2201.11903.pdf)
