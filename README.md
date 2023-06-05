@@ -8,6 +8,8 @@ A detailed record of the research performed during my summer 2023 internship wit
 
 This repo reflects that research, organizing it as appropriate.
 
+``` All linked papers saved locally as PDFs in this repo :)```
+
 # Table of Contents
 1. [Survey](#survey)
 2. [LLMs and LD Generation](#llms-and-ld-generation)
@@ -35,6 +37,7 @@ It is in the publication pipeline and stuck on [Teams](https://teams.microsoft.c
 
 # LLMs and LD Generation
 * [OntoGPT GitHub](https://github.com/monarch-initiative/ontogpt)
+   * [Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES)](papers/lms_and_ld/2304.02711.pdf) - the method underlying OntoGPT
 
 # ML Workflows
 By "ML Workflows", I mean all associated nomenclature, e.g.:
@@ -54,6 +57,11 @@ The main thing of interest is the generation and maintenance of appropriate prov
 * [Workflow Provenance in the Lifecycle of Scientific Machine Learning](papers/ontologies/souza.pdf) - defines the PROV-ML ontology
 
 # GPT Alternatives
+In a bit of Orwellian doublespeak, "OpenAI" is entirely closed-source. Directly quoting from the 100-page GPT-4 [techical report](papers/lms/2303.08774.pdf):
+
+```"Given both the competitive landscape and the safety implications of large-scale models like GPT-4, this report contains no further details about the architecture (including model size), hardware, training compute, dataset construction, training method, or similar."```
+
+So, this section pertains to any "alternatives" to GPT, including ways of getting around its limitations.
 
 ## A List of Large Models
 * [Awesome Huge Models](https://github.com/zhengzangw/awesome-huge-models) - The best resource on all of them, including GPTs, LLaMa, PaLM, BLOOM, etc.); I contributed some to it and it is a one-stop shop
@@ -69,6 +77,12 @@ The main thing of interest is the generation and maintenance of appropriate prov
 * [Holistic Evaluation of Language Models](papers/lms
 /2211.09110.pdf)
   * [Stanford's CRFM HELM project site](https://crfm.stanford.edu/helm/v0.2.2/)
+
+## Jailbroken GPT
+It is possible to prompt GPT so heavily with instructional input, that it can be "persuaded" to evade some of OpenAI's restrictions (e.g., ethical ones):
+
+* [ChatGPT DAN](https://gist.github.com/coolaj86/6f4f7b30129b0251f61fa7baaa881516)
+* [ChatGPT Jailbreaks](https://github.com/0xk1h0/ChatGPT_DAN)
 
 # Prompting Techniques
 
