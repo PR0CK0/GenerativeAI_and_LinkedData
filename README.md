@@ -1,5 +1,5 @@
 # Generative AI and Linked Data
-A detailed record of the research performed during my summer 2023 internship with AFRL... everything here is declassed, so it is ok to host this publicly. A project was developed and presented by the end of the summer, but the general focus of research (very open-ended) was:
+A detailed record of the research performed during my summer 2023 internship with AFRL. Everything here is declassed, so it is ok to host this publicly. A project was developed and presented by the end of the summer, but the general focus of research (very open-ended) was:
 
 1. Getting generative models to spit out valid triples and maybe DL axioms
 2. ML workflows, from end-to-end, in an operational military context of training, testing, deploying and replacing in the field
