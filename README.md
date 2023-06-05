@@ -46,8 +46,8 @@ By "ML Workflows", I mean all associated nomenclature, e.g.:
 The main thing of interest is the generation and maintenance of appropriate provenance for ML models over the lifecycle of operational ML. For example, in the context of, say, image classification for tanks, an ML provider may say they can give an uber model to detect anything, but this is not realistic. If it's foggy out, or rainy, or the targets paint pink unicorns all over their tanks - surprise: suddenly the model doesn't work! So ML models need to be traceable to their training data, tested quickly, deployed for actionable use and easily retirable once certain requirements aren't met, e.g., not being able to detect tanks with painted unicorns on them. So, the importance of properly serializing ML workflows cannot be understated, and this goes hand-in-hand with Linked Data, because graph data is ideal for representing provenance, e.g., consider the PROV project.
 
 ## ML Workflow Papers
-* [Managing Machine Learning Workflow Components](papers\ml_workflows\1912.05665.pdf)
-* [ModelDB: A System for Machine Learning Model Management](papers\ml_workflows\2939502.2939516.pdf)
+* [Managing Machine Learning Workflow Components](papers/ml_workflows/1912.05665.pdf)
+* [ModelDB: A System for Machine Learning Model Management](papers/ml_workflows/2939502.2939516.pdf)
 
 ## Ontologies
 * PROV
@@ -66,11 +66,11 @@ The main thing of interest is the generation and maintenance of appropriate prov
 * [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 
 ## Evaluating Models
-* [Holistic Evaluation of Language Models](papers\lms
-\2211.09110.pdf)
+* [Holistic Evaluation of Language Models](papers/lms
+/2211.09110.pdf)
   * [Stanford's CRFM HELM project site](https://crfm.stanford.edu/helm/v0.2.2/)
 
 # Prompting Techniques
 
 ## Prompting Technique Papers
-* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers\prompting\2201.11903.pdf)
+* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers/prompting/2201.11903.pdf)
