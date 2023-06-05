@@ -1,7 +1,7 @@
 # Generative AI and Linked Data
 
 # Survey
-On the interplay between Linked Data constructs and ML, Tim has included me on a paper of his that surveys this exact topic. He extracted 5 key sub-topics of research:
+On the interplay between Linked Data constructs and LLMs, Tim has included me on a paper of his that surveys this exact topic. He extracted 5 key sub-topics of research:
 * Knowledge Graph Generation
 * Knowledge Graph Completion
 * Knowledge Graph Enrichment
