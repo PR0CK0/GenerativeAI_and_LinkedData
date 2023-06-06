@@ -21,6 +21,7 @@ This repo reflects that research, organizing it as appropriate.
    2. [Local GPTs](#local-gpts)
    3. [Hosting Services](#hosting-services)
    4. [Evaluating Models](#evaluating-models)
+   5. [Jailbroken GPT](#jailbroken-gpt)
 5. [Prompting Techniques](#prompting-techniques)
    1. [Prompting Technique Papers](#prompting-technique-papers)
 
@@ -36,8 +37,11 @@ On the interplay between Linked Data constructs and LLMs, Tim (@A-J-S97) has inc
 It is in the publication pipeline and stuck on [Teams](https://teams.microsoft.com/l/team/19%3a7FqwuyXS3frXY6m10sysSjMtKm_l4NRT55nyJw4nkzI1%40thread.tacv2/conversations?groupId=ba2b05c7-541b-4166-93dd-a25d355f20e7&tenantId=6931c963-07b7-4156-ab0e-35d1f79035b8). Any paper cited here is out of the scope of Tim's paper, or else it was missed. 
 
 # LLMs and LD Generation
-* [OntoGPT GitHub](https://github.com/monarch-initiative/ontogpt)
-   * [Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES)](papers/lms_and_ld/2304.02711.pdf) - the method underlying OntoGPT
+* [OntoGPT GitHub](https://github.com/monarch-initiative/ontogpt) - a Python package for extracting semantics and creating ontologies from raw text; three approaches, SPIRES, HALO and SPINDOCTOR
+   * [Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES)](papers/lms_and_ld/2304.02711.pdf) - the main method underlying OntoGPT
+
+## Fine-tuning
+One thought I had was [fine-tuning](https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset) GPT on LD instance data and DL axioms to get a model really good at spitting out triples. This could be possible but it would require the collection of prompt-response pairs that could be generated (by using GPT), to then fine-tune off of. But at the end of the day it would take manual effort, which is why most work in the literature tends to just use GPT with a few examples in a good prompt to get valid RDF and OWL output.
 
 # ML Workflows
 By "ML Workflows", I mean all associated nomenclature, e.g.:
@@ -85,6 +89,9 @@ It is possible to prompt GPT so heavily with instructional input, that it can be
 * [ChatGPT Jailbreaks](https://github.com/0xk1h0/ChatGPT_DAN)
 
 # Prompting Techniques
+This is the definitive guide on prompt engineering, including links to papers and outside resources, as a GitHub repo:
+* [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
+   * [Prompting papers](https://www.promptingguide.ai/papers)
 
 ## Prompting Technique Papers
 * [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](papers/prompting/2201.11903.pdf)
