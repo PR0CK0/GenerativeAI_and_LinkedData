@@ -39,6 +39,7 @@ It is in the publication pipeline and stuck on [Teams](https://teams.microsoft.c
 # LLMs and LD Generation
 * [OntoGPT GitHub](https://github.com/monarch-initiative/ontogpt) - a Python package for extracting semantics and creating ontologies from raw text; three approaches, SPIRES, HALO and SPINDOCTOR
    * [Structured Prompt Interrogation and Recursive Extraction of Semantics (SPIRES)](papers/lms_and_ld/2304.02711.pdf) - the main method underlying OntoGPT
+* [KG-BERT](https://github.com/yao8839836/kg-bert)
 
 ## Fine-tuning
 One thought I had was [fine-tuning](https://platform.openai.com/docs/guides/fine-tuning/preparing-your-dataset) GPT on LD instance data and DL axioms to get a model really good at spitting out triples. This could be possible but it would require the collection of prompt-response pairs that could be generated (by using GPT), to then fine-tune off of. But at the end of the day it would take manual effort, which is why most work in the literature tends to just use GPT with a few examples in a good prompt to get valid RDF and OWL output.
