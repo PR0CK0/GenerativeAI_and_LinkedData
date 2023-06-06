@@ -66,9 +66,10 @@ In a bit of Orwellian doublespeak, "OpenAI" is entirely closed-source. Directly 
 
 ```"Given both the competitive landscape and the safety implications of large-scale models like GPT-4, this report contains no further details about the architecture (including model size), hardware, training compute, dataset construction, training method, or similar."```
 
-So, this section pertains to any "alternatives" to GPT, including ways of getting around its limitations.
+So, this section pertains to any "alternatives" to GPT, including ways of getting around its limitations. This is for the reason that a lot of military data is classified and cannot even be discussed on online platforms like ChatGPT.
 
 ## A List of Large Models
+There are tons of large transformer models, e.g., BERT. All of them are potential alternatives to GPT, but (disclaimer!) they are all inferior in almost every circumstance. OpenAI has some secret sauce that simply places them leagues above any other models.
 * [Awesome Huge Models](https://github.com/zhengzangw/awesome-huge-models) - The best resource on all of them, including GPTs, LLaMa, PaLM, BLOOM, etc.); I contributed some to it and it is a one-stop shop
 
 ## Local GPTs
@@ -79,8 +80,7 @@ So, this section pertains to any "alternatives" to GPT, including ways of gettin
 * [ColossalAI](https://github.com/hpcaitech/ColossalAI)
 
 ## Evaluating Models
-* [Holistic Evaluation of Language Models](papers/lms
-/2211.09110.pdf)
+* [Holistic Evaluation of Language Models](papers/lms/2211.09110.pdf)
   * [Stanford's CRFM HELM project site](https://crfm.stanford.edu/helm/v0.2.2/)
 
 ## Jailbroken GPT
