@@ -75,6 +75,7 @@ There are tons of large transformer models, e.g., BERT. All of them are potentia
 * [Awesome Huge Models](https://github.com/zhengzangw/awesome-huge-models) - The best resource on all of them, including GPTs, LLaMa, PaLM, BLOOM, etc.); I contributed some to it and it is a one-stop shop
 
 ## Local GPTs
+* [A list of open GPT alternatives](https://github.com/nichtdax/awesome-totally-open-chatgpt)
 * [PrivateGPT](https://github.com/imartinez/privateGPT)
 * [GPT4All](https://github.com/nomic-ai/gpt4all)
 
