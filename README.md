@@ -6,7 +6,7 @@ A detailed record of the research performed during my summer 2023 internship wit
 3. GPT alternatives, including ones that can run locally and can be fine-tuned more explicitly
 4. Prompting techniques... we already know a lot about this stuff but there are interesting fragments in the literature to consider
 
-This repo reflects that research, organizing it as appropriate. If I have granted you access, my summer research specific to the AFRL can be found [here](https://github.com/PR0CK0/AFRL_Summer_2023) (private).
+This repo reflects that research, organizing it as appropriate.
 
 ``` All linked papers saved locally as PDFs in this repo :)```
 
