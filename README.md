@@ -2,7 +2,7 @@
 A detailed record of the research performed during my summer 2023 internship with AFRL. Everything here is declassed, so it is ok to host this publicly. A project was developed and presented by the end of the summer, but the general focus of research (very open-ended) was:
 
 1. Getting generative models to spit out valid triples and maybe DL axioms
-2. ML workflows, from end-to-end, in an operational military context of training, testing, deploying and replacing in the field
+2. ML workflows, from end-to-end, in an operational context
 3. GPT alternatives, including ones that can run locally and can be fine-tuned more explicitly
 4. Prompting techniques... we already know a lot about this stuff but there are interesting fragments in the literature to consider
 
@@ -52,8 +52,6 @@ By "ML Workflows", I mean all associated nomenclature, e.g.:
 * ML Engineering
 * AutoML
 * Etc.
-
-The main thing of interest is the generation and maintenance of appropriate provenance for ML models over the lifecycle of operational ML. For example, in the context of, say, image classification for tanks, an ML provider may say they can give an uber model to detect anything, but this is not realistic. If it's foggy out, or rainy, or the targets paint pink unicorns all over their tanks - surprise: suddenly the model doesn't work! So ML models need to be traceable to their training data, tested quickly, deployed for actionable use and easily retirable once certain requirements aren't met, e.g., not being able to detect tanks with painted unicorns on them. So, the importance of properly serializing ML workflows cannot be understated, and this goes hand-in-hand with Linked Data, because graph data is ideal for representing provenance, e.g., consider the PROV project.
 
 ## ML Workflow Papers
 * [Managing Machine Learning Workflow Components](papers/ml_workflows/1912.05665.pdf)
