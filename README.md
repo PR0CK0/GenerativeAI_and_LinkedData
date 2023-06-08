@@ -15,7 +15,8 @@ This repo reflects that research, organizing it as appropriate.
 2. [LLMs and LD Generation](#llms-and-ld-generation)
 3. [ML Workflows](#ml-workflows)
    1. [ML Workflow Papers](#ml-workflow-papers)
-   2. [Ontologies](#ontologies)
+   2. [MLOps Systems/Platforms](#mlops-systemsplatforms)
+   3. [Ontologies](#ontologies)
 4. [GPT Alternatives](#gpt-alternatives)
    1. [A List of Large Models](#a-list-of-large-models)
    2. [Local GPTs](#local-gpts)
@@ -53,14 +54,35 @@ By "ML Workflows", I mean all associated nomenclature, e.g.:
 * AutoML
 * Etc.
 
+## MLOps Systems/Platforms
+What platforms exist for managing ML in an operational context? I mean not just training and storing models, but tracking their creation, phasing them out, archiving them, etc. The entire lifecycle.
+
+* Kubeflow
+* MLflow
+* TensorFlow Extended
+* Metaflow
+* Seldon
+* Hydra 
+* DVC (Data Version Control)
+* Pachyderm
+* Neptune
+* Weights & Biases
+* Tecton
+* Allegro Trains
+
 ## ML Workflow Papers
 * [Managing Machine Learning Workflow Components](papers/ml_workflows/1912.05665.pdf)
 * [ModelDB: A System for Machine Learning Model Management](papers/ml_workflows/2939502.2939516.pdf)
 * [Machine Learning Operations (MLOps): Overview, Definition, and Architecture](papers/ml_workflows/mlops.pdf)
+* [Automatically Tracking Metadata and Provenance of Machine Learning Experiments](papers/ml_workflows/automatically-tracking-metadata-and-provenance-of-machine-learning-experiments.pdf)
+* [Implicit Provenance for Machine Learning Artifacts](papers/ml_workflows/provenance_mlsys20.pdf)
+* [Time Travel and Provenance for Machine Learning Pipelines](papers/ml_workflows/opml20_paper_ormenisan.pdf)
+* [Machine Learning Pipelines: Provenance, Reproducibility and FAIR Data Principles](papers/ml_workflows/provenance-and-annotation-of-data-and-processes-2021.pdf) - pg. 226
 
 ## Ontologies
 * PROV
 * [Workflow Provenance in the Lifecycle of Scientific Machine Learning](papers/ontologies/souza.pdf) - defines the PROV-ML ontology
+   * [Provenance Data in the Machine Learning Lifecycle in Computational Science and Engineering](papers/ml_workflows/souza2019.pdf)
 
 # GPT Alternatives
 In a bit of Orwellian doublespeak, "OpenAI" is entirely closed-source. Directly quoting from the 100-page GPT-4 [techical report](papers/lms/2303.08774.pdf):
