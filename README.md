@@ -79,6 +79,8 @@ What platforms exist for managing ML in an operational context? I mean not just 
 * [Implicit Provenance for Machine Learning Artifacts](papers/ml_workflows/provenance_mlsys20.pdf)
 * [Time Travel and Provenance for Machine Learning Pipelines](papers/ml_workflows/opml20_paper_ormenisan.pdf)
 * [Machine Learning Pipelines: Provenance, Reproducibility and FAIR Data Principles](papers/ml_workflows/provenance-and-annotation-of-data-and-processes-2021.pdf) - pg. 226
+* [A Provenance-based Semantic Approach to Support Understandability, Reproducibility, and Reuse of Scientific Experiments](papers/ml_workflows/disssamuel.pdf)
+   * [ProvBook GitHub](https://github.com/Sheeba-Samuel/ProvBook)
 
 ## Ontologies
 * PROV
@@ -86,7 +88,7 @@ What platforms exist for managing ML in an operational context? I mean not just 
    * [Provenance Data in the Machine Learning Lifecycle in Computational Science and Engineering](papers/ml_workflows/souza2019.pdf)
 
 # GPT Alternatives
-In a bit of Orwellian doublespeak, "OpenAI" is entirely closed-source. Directly quoting from the 100-page GPT-4 [techical report](papers/lms/2303.08774.pdf):
+In a bit of Orwellian doublespeak, "OpenAI" is entirely closed-source. Directly quoting from the 100-page GPT-4 [technical report](papers/lms/2303.08774.pdf):
 
 ```"Given both the competitive landscape and the safety implications of large-scale models like GPT-4, this report contains no further details about the architecture (including model size), hardware, training compute, dataset construction, training method, or similar."```
 
