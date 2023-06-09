@@ -1,5 +1,5 @@
 # Generative AI and Linked Data
-A detailed record of my research into the interplay of LD and ML. Mostly interested on maintaining ML provenance, from requirements to phase-out and archival, with a focus on generative AI models. The general focus of the research:
+A detailed record of my research into the interplay of LD and ML. Mostly interested in maintaining ML provenance, from requirements to phase-out and archival, with a focus on generative AI models. The general focus of the research:
 
 1. Getting generative models to spit out valid triples and maybe DL axioms
 2. ML workflows, from end-to-end, in an operational context
