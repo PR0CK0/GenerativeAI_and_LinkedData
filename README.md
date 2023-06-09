@@ -64,8 +64,8 @@ What platforms exist for managing ML in an operational context? I mean not just 
 * [Seldon](https://www.seldon.io/) / [Seldon GitHub](https://github.com/SeldonIO/seldon-core) - an enterprise MLOps framework to deal with thousands of ML models
 * [Hydra](https://hydra.cc/docs/intro/) / [Hydra GitHub](https://github.com/facebookresearch/hydra) - from Facebook, meant for configuring large apps (may not be entirely applicable)
 * [DVC (Data Version Control)](https://dvc.org/) / [DVC GitHub](https://github.com/iterative/dvc) - Git-based version control for ML 
-* [Pachyderm(https://www.pachyderm.com/)] / [Pachyderm GitHub](https://github.com/pachyderm/pachyderm) - from HP, automates data-driven pipelines for ML
-* [Neptune(https://neptune.ai/)] / [Neptune GitHub](https://github.com/neptune-ai) - Provenance and metadata store for ML modelst
+* [Pachyderm](https://www.pachyderm.com/) / [Pachyderm GitHub](https://github.com/pachyderm/pachyderm) - from HP, automates data-driven pipelines for ML
+* [Neptune](https://neptune.ai/) / [Neptune GitHub](https://github.com/neptune-ai) - Provenance and metadata store for ML modelst
 * [Weights & Biases](https://wandb.ai/site) - data versioning and ML collaboration platform
 * [Tecton](https://www.tecton.ai/) - enterprise platform for the ML feature lifecycle
 * [Allegro Trains](https://clear.ml/) / [Allegro GitHub](https://github.com/allegroai/clearml) - system is called ClearML; touted as a CI/CD for the ML workflow
