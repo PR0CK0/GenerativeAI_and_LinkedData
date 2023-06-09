@@ -55,20 +55,21 @@ By "ML Workflows", I mean all associated nomenclature, e.g.:
 * Etc.
 
 ## MLOps Systems/Platforms
-What platforms exist for managing ML in an operational context? I mean not just training and storing models, but tracking their creation, phasing them out, archiving them, etc. The entire lifecycle.
+What platforms exist for managing ML in an operational context? I mean not just training and storing models, but tracking their creation, phasing them out, archiving them, etc. The entire lifecycle. Everyone simply assumes it's an ad-hoc process or totally proprietary. This is incorrect. Below are several tools for MLOps, including the important aspect of provenance.
 
-* Kubeflow
-* MLflow
-* TensorFlow Extended
-* Metaflow
-* Seldon
-* Hydra 
-* DVC (Data Version Control)
-* Pachyderm
-* Neptune
-* Weights & Biases
-* Tecton
-* Allegro Trains
+* [Kubeflow](https://www.kubeflow.org/) - from Google, for deploying ML workflows on Kubernetes, which is for deploying and scaling containerized apps
+* [MLflow](https://mlflow.org/) / [MLflow GitHub](https://github.com/mlflow/mlflow) - end-to-end ML lifecycle management tool
+* [TensorFlow Extended](https://www.tensorflow.org/tfx) - mostly for deploying production ML
+* [Metaflow](https://metaflow.org/) / [Metaflow GitHub](https://github.com/Netflix/metaflow) - from Netflix, meant for any data science project (not just ML), from exploration to deployment and monitoring
+* [Seldon](https://www.seldon.io/) / [Seldon GitHub](https://github.com/SeldonIO/seldon-core) - an enterprise MLOps framework to deal with thousands of ML models
+* [Hydra](https://hydra.cc/docs/intro/) / [Hydra GitHub](https://github.com/facebookresearch/hydra) - from Facebook, meant for configuring large apps (may not be entirely applicable)
+* [DVC (Data Version Control)](https://dvc.org/) / [DVC GitHub](https://github.com/iterative/dvc) - Git-based version control for ML 
+* [Pachyderm(https://www.pachyderm.com/)] / [Pachyderm GitHub](https://github.com/pachyderm/pachyderm) - from HP, automates data-driven pipelines for ML
+* [Neptune(https://neptune.ai/)] / [Neptune GitHub](https://github.com/neptune-ai) - Provenance and metadata store for ML modelst
+* [Weights & Biases](https://wandb.ai/site) - data versioning and ML collaboration platform
+* [Tecton](https://www.tecton.ai/) - enterprise platform for the ML feature lifecycle
+* [Allegro Trains](https://clear.ml/) / [Allegro GitHub](https://github.com/allegroai/clearml) - system is called ClearML; touted as a CI/CD for the ML workflow
+* More to come... and I will investigate these deeper...
 
 ## ML Workflow Papers
 * [Managing Machine Learning Workflow Components](papers/ml_workflows/1912.05665.pdf)
