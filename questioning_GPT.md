@@ -66,6 +66,8 @@ SELECT ?c WHERE {
 ```
 
 ### Followup Prompt
+This one got it.
+
 ```Can you rewrite this to use SPARQL property paths? It should be doable in one line.```
 
 ### Response
