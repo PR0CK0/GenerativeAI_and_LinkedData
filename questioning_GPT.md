@@ -1,4 +1,4 @@
-# Questioning GPT
+# Prompting GPT for SPARQL
 I have an idea on replacing SPARQL with GPT prompting. SPARQL has a very limited set of terms, unlike programming languages, and mostly results in playing games of pattern matching. This tendency to literally just spend SPARQL debugging time matching patterns between nodes interests me, as GPT-4 is capable as an instructional model. Many papers detail prompt engineering techniques centered around giving GPT examples, instructing it, etc., which is intuitive in natural language with RDF graphs. I think massive LLMs can probably do well with it this, because SPARQL has been around on the Web since 2008, so an LLM like GPT-4 likely has a massive amount of training data on SPARQL. Being a W3C standard, I am sure there are shards of it all over the web, hidden or otherwise. Anyhow, to get a feeling about how strong it is with SPARQL, this readme has my exploratory prompts and GPT-4's answers on how much it knows on SPARQL. As it turns out, it's quite good.
 
 ## General Knowledge Prompt
