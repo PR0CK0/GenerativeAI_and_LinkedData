@@ -71,6 +71,7 @@ What platforms exist for managing ML in an operational context? I mean not just 
 * [Tecton](https://www.tecton.ai/) - enterprise platform for the ML feature lifecycle
 * [Allegro Trains](https://clear.ml/) / [Allegro GitHub](https://github.com/allegroai/clearml) - system is called ClearML; touted as a CI/CD for the ML workflow
 * [OpenML](https://www.openml.org/) - ??
+* [Pipeline AI](https://www.mystic.ai/) - Mystic interface
 * More to come... and I will investigate these deeper...
 
 ## ML Workflow Papers
