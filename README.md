@@ -17,7 +17,7 @@ This repo reflects that research, organizing it as appropriate.
    1. [ML Workflow Papers](#ml-workflow-papers)
    2. [MLOps Systems/Platforms](#mlops-systemsplatforms)
    3. [Ontologies](#ontologies)
-   4. [ML Model Serializations](#ml-model-serializations)
+   4. [ML Model Provenance](#ml-model-provenance)
 4. [GPT Alternatives](#gpt-alternatives)
    1. [A List of Large Models](#a-list-of-large-models)
    2. [Local GPTs](#local-gpts)
@@ -89,8 +89,18 @@ What platforms exist for managing ML in an operational context? I mean not just 
 * [Workflow Provenance in the Lifecycle of Scientific Machine Learning](papers/ontologies/souza.pdf) - defines the PROV-ML ontology
    * [Provenance Data in the Machine Learning Lifecycle in Computational Science and Engineering](papers/ml_workflows/souza2019.pdf)
 
-## ML Model Serializations
-It would be interesting to see if it is possible to embed RDF data, or at least IRIs, into a model file to carry along its provenance. So let's look into the model serializations to see how it could be done.
+## ML Model Provenance
+It would be interesting to see if it is possible to embed RDF data, or at least IRIs, into a model file to carry along its provenance. This would be nice so that models transferred between workers would maintain their provenance.
+
+### Techniques
+1. Send a zip containing the model and its provenance (e.g., its relevant provenance graph)
+2. Embed the provenance into the model
+   1. Normalize the serialization regardless of serialization type with a ZIP script, embed the provenance into the header; unzipping it will produce the model that can be used without problem
+      * The Python library zipfile lets you add comments to zip files that you can read when decompressing. See [this script](src/zipcomment.py).
+   2. Embed it some other way, depending on serialization format (e.g., PMML is XML based but this is probably unscalable for large models with thousands of millions of parameters)
+   3. Embed it as simply as possible with an actual IRI and let that IRI dereference to a web resource that contains the full model info (e.g., in the filename, in the header/footer of the file, etc.)
+
+### Model Serialization Formats
 * Hierarchical Data Format 5 (HDF5) - binary
 * Open Neural Network Exchange (ONNX) - binary 
 * Predictive Model Markup Language (PMML) - XML
